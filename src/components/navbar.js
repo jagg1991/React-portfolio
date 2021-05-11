@@ -11,8 +11,8 @@ function Navbar() {
 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
+                        <a className="nav-link" href="#">Home</a>
                         <a className="nav-link active" aria-current="page" href="#">Portfolio</a>
-                        <a className="nav-link" href="#">About</a>
                         <a className="nav-link" href="#">Contact</a>
 
                     </div>
