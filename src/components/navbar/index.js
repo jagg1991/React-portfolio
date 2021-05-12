@@ -26,6 +26,13 @@ function Navbar() {
                                     to="portfolio"
                                 >Portfolio</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link
+                                    className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+
+                                    to="contact"
+                                >Contact</Link>
+                            </li>
                         </ul>
                         {/* <a className="nav-link" href="#">Home</a>
                         <a className="nav-link active" aria-current="page" href="#">Portfolio</a>

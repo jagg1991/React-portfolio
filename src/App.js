@@ -1,22 +1,36 @@
+import React from "react";
+// import './components/fontAwesomeIcons'
 import Navbar from "./components/navbar"
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Portfolio from "./pages/portfolio";
 import About from "./pages/about";
-
+import Contact from "./pages/contact"
 
 
 function App() {
   return (
-    <Router>
+
+    < Router >
+
       <div className="App">
 
         <Navbar />
-        <Route exact path="/" component={About}></Route>
-        <Route exact path="home" component={About}></Route>
-        <Route exact path="portfolio" component={Portfolio} />
+        <Switch>
+          <Route exact path={["/", "/home"]}>
+            <About />
+          </Route>
 
-      </div>
-    </Router>
+          <Route exact path="/portfolio" >
+            <Portfolio />
+          </Route>
+          <Route exact path="/contact" >
+            <Contact />
+
+          </Route>
+        </ Switch>
+      </div >
+    </Router >
+
   );
 }
 
