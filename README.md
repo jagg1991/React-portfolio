@@ -27,7 +27,7 @@ to its associated git repo! Take a look around, let me know what you think!
 
 ## Here is a screen shot of my home page!
 
-![](Screenshot.png)
+![](public/homepage.png)
 
 ## Check out my portfolio!
 
