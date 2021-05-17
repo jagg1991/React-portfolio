@@ -27,11 +27,11 @@ to its associated git repo! Take a look around, let me know what you think!
 
 ## Here is a screen shot of my home page!
 
-![](Assets/Images/screenshot.png)
+![](Screenshot.png)
 
 ## Check out my portfolio!
 
-[https://jagg1991.herokuapp.com/](https://jagg1991.herokuapp.com/)
+[https://nameless-everglades-36442.herokuapp.com/](https://nameless-everglades-36442.herokuapp.com/)
 
 ## Contact me!
 
