@@ -93,7 +93,7 @@ function Portfolio() {
 
         <div className="container-sm" style={{ background: "linear-gradient(115deg, #151b1b 30%, #585858 70%)", borderStyle: "outset", marginTop: "75px", marginBottom: "75px", padding: "75px" }}>
 
-            <div className="header" style={{ color: "white", textAlign: "center", fontSize: "50px" }}>Check out the best of my work!</div>
+            <div className="header" style={{ textAlign: "center", fontSize: "50px", color: "whitesmoke", fontFamily: "Lucida Handwriting, Brush Script MT, Cursive", textShadow: "2px 2px 5px rgb(0, 175, 219)" }}>Check out the best of my work!</div>
 
             <Card >
                 <Project
@@ -133,25 +133,7 @@ function Portfolio() {
 
                 />
             </Card>
-            <Card>
-                <Project
-                    style={{ margin: "75px" }}
-                    src={popflix}
-                    alt="popflixs"
-                    header="PopFlix!"
-                    body="This has been my favorite project that I've worked on so far. Having trouble
-                    picking a
-                    movie on your favorite streaming service? We have an answer to that! The user will be able to
-                    enter a genre, decade, rating and an actor and they will be presented with a random movie. 
-                    They will also see what streaming service its steaming on, and be able to click on the link 
-                    and be taken to the site. Click the link below to try it out yourself! Adam and
-                    Skyler made this project into what it looks like today, I
-                    wouldn't have been able to do it without them!"
-                    href="https://mradamhorn.github.io/popflix/"
-                    link="PopFlix!"
 
-                />
-            </Card>
             <Card>
                 <Project
                     style={{ margin: "75px" }}

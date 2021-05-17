@@ -3,12 +3,16 @@ import React from "react";
 import GitBtn from "../GitBtn"
 import { Navbar, Nav, } from "react-bootstrap"
 
+
 function NavbarDrop(props) {
     return (
 
-        <Navbar bg="dark" variant="dark" expand="lg">
+
+        <Navbar sticky="top" style={{ padding: "15px", boxShadow: "0 2px 4px 0 rgba(5, 107, 138, 0.2)" }} bg="dark" variant="dark" expand="lg">
+
             <Navbar.Brand href="/home">Home</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+            <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link href="/portfolio">Portfolio</Nav.Link>
@@ -17,7 +21,9 @@ function NavbarDrop(props) {
                 </Nav>
 
             </Navbar.Collapse>
+
         </Navbar>
+
 
         // <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         //     <div className="container-fluid">

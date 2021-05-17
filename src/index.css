@@ -1,4 +1,8 @@
 body {
 
     background: linear-gradient(115deg, #56d8e4 10%, #004b50 90%);
+    box-shadow: 0 2px 4px 0 rgba(5, 107, 138, 0.2)
 }
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }

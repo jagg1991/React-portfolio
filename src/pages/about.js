@@ -3,7 +3,7 @@ import React from "react";
 // import Project from "../components/projects";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 // import Container from "../components/container"
-import { faNodeJs } from "@fortawesome/free-brands-svg-icons"
+import { faNode, faJsSquare, faHtml5, faReact, faNpm, faCss3Alt, } from "@fortawesome/free-brands-svg-icons"
 import images from "../images/Hawaii.jpg"
 
 
@@ -11,9 +11,9 @@ function About() {
 
     return (
         <div className="container-sm">
-            <div style={{ background: "linear-gradient(115deg, #151b1b 30%, #585858 70%)", margin: "100px", borderStyle: "outset", padding: "10px", color: "whitesmoke", fontFamily: "Lucida Handwriting, Brush Script MT, Cursive", fontSize: "20px", textShadow: "2px 2px 5px rgb(0, 175, 219)" }}>
+            <div style={{ background: "linear-gradient(115deg, #151b1b 30%, #585858 70%)", margin: "100px", borderStyle: "outset", padding: "20px", color: "whitesmoke", fontFamily: "Lucida Handwriting, Brush Script MT, Cursive", fontSize: "20px", textShadow: "2px 2px 5px rgb(0, 175, 219)" }}>
 
-                <div className="header" style={{ backgroundColor: "black", margin: "5px", color: "white" }}>About Me</div>
+                <div className="header" style={{ backgroundColor: "black", margin: "5px", color: "white", textAlign: "center" }}>About Me</div>
                 <div className="clearfix">
                     <img src={images} alt="" className="img-fluid col-md-6 float-md-end mb-3 ms-md-3" style={{ borderStyle: "groove" }} />
 
@@ -51,9 +51,14 @@ function About() {
             <div className="container">
                 <h1 style={{ textAlign: "center" }}>Skills</h1>
                 <hr></hr>
-                <div>
-                    <FontAwesomeIcon icon={faNodeJs} size="6x" />
-                    <FontAwesomeIcon icon={faNodeJs} size="6x" />
+                <div style={{ textAlign: "center" }}>
+
+                    <FontAwesomeIcon icon={faNode} size="5x" />
+                    <FontAwesomeIcon style={{ paddingLeft: "25px" }} icon={faHtml5} size="5x" />
+                    <FontAwesomeIcon style={{ paddingLeft: "25px" }} icon={faCss3Alt} size="5x" />
+                    <FontAwesomeIcon style={{ paddingLeft: "25px" }} icon={faReact} size="5x" />
+                    <FontAwesomeIcon style={{ paddingLeft: "25px" }} icon={faNpm} size="5x" />
+                    <FontAwesomeIcon style={{ paddingLeft: "25px" }} icon={faJsSquare} size="5x" />
 
                 </div>
             </div>
