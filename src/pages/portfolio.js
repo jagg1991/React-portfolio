@@ -5,6 +5,8 @@ import popflix from "../images/popflix.png"
 import assign from "../images/assign-it.png"
 import weather from "../images/weather.png"
 import calander from "../images/calander.png"
+import { Col } from "react-bootstrap";
+
 // import Container from "../components/container";
 
 function Portfolio() {
@@ -133,7 +135,7 @@ function Portfolio() {
 
                 />
             </Card>
-
+            <Col></Col>
             <Card>
                 <Project
                     style={{ margin: "75px" }}
